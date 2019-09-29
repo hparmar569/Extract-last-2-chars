@@ -1,0 +1,21 @@
+import java.util.*;
+  
+public class Test
+{     
+    public static void main(String[] args)  
+    { 
+            Scanner c=new Scanner(System.in);
+            String str=c.nextLine();
+            int n=str.length();
+            if(n<=2)
+            {
+                System.out.println("invalid input");
+            }
+            else
+            {
+                str=str.substring(n-2,n);
+                System.out.println(str);
+            }
+         
+    } 
+} 
